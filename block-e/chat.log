@@ -1,0 +1,16 @@
+17:06:21.381  chattool Version 0.02, Compiled on: Jan 27 2022 at 10:53
+17:06:21.381  Log level:0  Debug mask:0  Start time: Tue Feb 15 17:06:21 2022
+17:06:21.381  ./chattool started.
+17:06:21.381  network: choose_new_os_level()
+17:06:21.381  network: ctrl_init()
+17:06:21.382  network: data_init()
+17:06:22.383  network: ctrl_send_check_master()
+17:06:22.383  network: ctrl_send_request_membership()
+17:06:22.383  state  : STATE_INIT
+17:06:22.383  network: ctrl_send_request_membership()
+17:06:22.383  state  : STATE_INIT
+17:06:23.384  state  : STATE_FORCE_ELECTION
+17:06:23.384  network: ctrl_send_force_election()
+17:06:23.384  state  : STATE_FORCE_ELECTION
+17:06:23.393  network: ctrl_send_leave_group()
+17:06:23.393  abort_chat called. aborting application.

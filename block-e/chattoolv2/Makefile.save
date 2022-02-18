@@ -1,0 +1,1 @@
+chattool: main.cc linkedlist     gcc -o chattool main.cc linkedlist.c -I.

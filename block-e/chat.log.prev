@@ -1,0 +1,66 @@
+09:30:17.218  chattool Version 0.02, Compiled on: Jan 27 2022 at 10:53
+09:30:17.218  Log level:0  Debug mask:0  Start time: Thu Feb  3 09:30:17 2022
+09:30:17.218  ./chattool started.
+09:30:17.218  network: choose_new_os_level()
+09:30:17.218  network: ctrl_init()
+09:30:17.219  network: data_init()
+09:30:18.220  network: ctrl_send_check_master()
+09:30:18.220  network: ctrl_send_request_membership()
+09:30:18.220  state  : STATE_INIT
+09:30:18.220  network: ctrl_send_request_membership()
+09:30:18.220  state  : STATE_INIT
+09:30:18.220  network: ctrl_recv() I_AM_MASTER
+09:30:18.220  network: ctrl_send_get_browse_list()
+09:30:18.220  state  : STATE_FORCE_ELECTION
+09:30:18.220  network: ctrl_recv() GET_MEMBER_INFO
+09:30:18.220  network: ctrl_send_set_member_info()
+09:30:18.220  network: ctrl_recv() I_AM_MASTER
+09:30:18.220  network: ctrl_send_get_browse_list()
+09:30:18.221  state  : STATE_MASTER_FOUND
+09:30:18.221  network: ctrl_recv() GET_MEMBER_INFO
+09:30:18.221  network: ctrl_send_set_member_info()
+09:30:18.221  network: ctrl_recv() BROWSE_LIST
+09:30:18.221  network: ctrl_store_browse_list()
+09:30:18.221  state  : STATE_MASTER_FOUND
+09:30:18.221  network: data_establConn()
+09:30:18.221  network: data_establConn to 192.168.50.47
+09:30:18.222  state  : STATE_BROWSELIST_RCVD
+09:30:19.019  network: data_sendData()
+09:30:19.019  network: data_establConn()
+09:30:19.221  state  : STATE_BROWSELIST_RCVD
+09:30:19.221  network: data_establConn()
+09:30:26.038  network: data_recvData()
+09:30:31.563  network: data_sendData()
+09:30:31.563  network: data_establConn()
+09:30:32.947  network: data_recvData()
+09:30:35.298  network: data_recvData()
+09:30:41.467  network: data_sendData()
+09:30:41.468  network: data_establConn()
+09:30:43.819  network: data_sendData()
+09:30:43.819  network: data_establConn()
+09:30:44.059  network: data_sendData()
+09:30:44.060  network: data_establConn()
+09:30:45.660  network: data_sendData()
+09:30:45.660  network: data_establConn()
+09:30:47.180  network: data_sendData()
+09:30:47.180  network: data_establConn()
+09:30:48.764  network: data_sendData()
+09:30:48.764  network: data_establConn()
+09:30:51.276  network: data_sendData()
+09:30:51.276  network: data_establConn()
+09:30:52.684  network: data_sendData()
+09:30:52.684  network: data_establConn()
+09:30:54.061  network: data_recvData()
+09:30:54.156  network: data_sendData()
+09:30:54.156  network: data_establConn()
+09:31:09.124  network: data_recvData()
+09:31:10.509  host 192.168.50.47 (master) has left the group.
+09:31:10.509  state  : STATE_BROWSELIST_RCVD
+09:31:10.509  network: ctrl_send_force_election()
+09:31:10.509  network: data_recvData()
+09:31:10.509  network: ctrl_recv() FORCE_ELECTION
+09:31:10.509  network: ctrl_send_master_value()
+09:33:03.134  network: ctrl_send_leave_group()
+09:33:03.134  abort_chat called. aborting application.
+09:33:03.134  network: ctrl_send_check_master()
+09:33:03.134  network: ctrl_send_request_membership()
